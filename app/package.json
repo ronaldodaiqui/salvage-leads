@@ -1,0 +1,21 @@
+{
+  "name": "salvage-leads",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Android wrapper for Salvage Leads",
+  "scripts": {
+    "build:web": "node build-web.mjs"
+  },
+  "dependencies": {
+    "@capacitor/android": "6.2.1",
+    "@capacitor/app": "6.0.2",
+    "@capacitor/app-launcher": "6.0.3",
+    "@capacitor/core": "6.2.1",
+    "@capacitor/geolocation": "6.0.2",
+    "@capacitor/preferences": "6.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "6.2.1",
+    "esbuild": "0.24.0"
+  }
+}
